@@ -87,6 +87,58 @@ header{
     display: block;
     margin: 0 auto; 
   }
-  
+
+  .header2{
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #343a40;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0;
+    padding: 0.5rem 0;
+  }
+
+/* Základní reset pro odstranění výchozích stylů prohlížeče */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 2.5rem;
+    color: #2c3e50; 
+    text-align: center; 
+    margin: 20px 0; 
+    padding: 10px; 
+    background: linear-gradient(90deg, #3498db, #8e44ad);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    font-weight: bold; 
+    animation: fadeIn 2s ease-in-out; 
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .header3 {
+        font-size: 2rem; 
+    }
+}
   
   
